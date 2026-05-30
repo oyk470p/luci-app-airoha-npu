@@ -9,7 +9,7 @@ PKG_LICENSE:=Apache-2.0
 LUCI_TITLE:=LuCI Airoha SoC Status (NPU, CPU, Frame Engine)
 LUCI_DEPENDS:=+luci-base @TARGET_airoha
 
-# include ../../luci.mk
-include $(TOPDIR)/feeds/luci/luci.mk
+include ../../luci.mk
+# include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
